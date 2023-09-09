@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: offwhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.converter label,
+.result p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.converter input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.converter button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result p {
+    color: #333;
+}
